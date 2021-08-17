@@ -19,6 +19,7 @@
     "elasticio-component"
   ],
   "scripts": {
+    "start": "node ./node_modules/ferryman/runGlobal.js",
     "pretest": "eslint lib spec --ext .json --ext .js --fix",
     "test": "NODE_ENV=test mocha spec/*"
   },
@@ -26,6 +27,7 @@
     "node": "14"
   },
   "dependencies": {
+    "@openintegrationhub/ferryman": "^1.1.5",
     "@elastic.io/component-commons-library": "1.1.4",
     "elasticio-node": "0.0.9",
     "elasticio-sailor-nodejs": "2.6.24",
