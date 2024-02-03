@@ -31,7 +31,7 @@
     "@elastic.io/component-commons-library": "1.1.4",
     "elasticio-node": "0.0.9",
     "elasticio-sailor-nodejs": "2.6.24",
-    "request": "2.88.0"
+    "request": "2.88.2"
   },
   "devDependencies": {
     "bunyan": "1.8.12",
